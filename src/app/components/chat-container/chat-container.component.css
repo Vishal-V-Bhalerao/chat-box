@@ -1,0 +1,54 @@
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E8F3;
+    height: 70%;
+    width: 100%;
+}
+.chats-div{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+.friend-msg{
+    display: inline-block;
+    background-color: #b8e994;
+    width: auto;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+.your-msg{
+    display: inline-block;
+    background-color:#82ccdd;
+    width: auto;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    
+}
+
+.your-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.msg-type-div{
+    height: 12%;
+    width: 100%;
+}
+.msg-type-div >.text-box{
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.msg-type-div > button{
+    width: 10%;
+    height: 100%;
+    background-color: #78e08f;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+}

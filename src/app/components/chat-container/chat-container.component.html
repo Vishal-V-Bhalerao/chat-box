@@ -1,0 +1,17 @@
+<div class="chat-container">
+    <div id="chatBox" class="chats-div">
+        <div class="friend-div" >
+            <div class="friend-msg"><span>Hi ! How are you ?</span></div>
+        </div>
+        <div class="friend-div" >
+            <div class="friend-msg"><span> I want to tell you something.</span></div>
+        </div>
+        <div class="your-div">
+            <div class="your-msg"><span> Hi. I am fine.</span></div>
+        </div>
+    </div>
+    <div class="msg-type-div">
+        <input type="text" class="text-box" #txtMsg>
+        <button (click)="onSendClick(txtMsg)" >Send</button>
+    </div>
+</div>
